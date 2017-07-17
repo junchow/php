@@ -95,7 +95,21 @@ $ git clone git@github.com:junchow/php.git && cd php
 $ git fetch
 
 // 查看历史记录
-$ git log
+$ git log --decorate --graph --oneline --all
+
+// 合并到最新分支
+$ git merge origin/master
+
+// 编辑本地文件
+$ vim README.md
+
+// 添加到历史中
+$ git add README.md
+
+//提交
+$ git commit -m "add some local texts in README.md"
+
+
 
 ```
 
